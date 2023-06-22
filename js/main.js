@@ -1,6 +1,9 @@
-var config = {
-  position: 'start',
-  draggable: true
-}
+$(function() {
 
-var board = Chessboard('myBoard', config);
+  console.log("Main Init Called");
+
+});
+
+function init() {
+  console.log("init() called");
+};
